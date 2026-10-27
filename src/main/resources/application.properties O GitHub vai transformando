@@ -1,0 +1,9 @@
+spring.application.name=lab-padroes-projeto-spring
+
+# Banco H2 em memoria (console em /h2-console)
+spring.h2.console.enabled=true
+spring.jpa.open-in-view=false
+spring.jpa.show-sql=false
+
+# URL base da API do ViaCEP (pode ser trocada em testes)
+viacep.url=https://viacep.com.br/ws
